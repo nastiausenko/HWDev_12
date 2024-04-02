@@ -1,7 +1,7 @@
 package org.example.services;
 
 import org.example.crudService.ClientCrudService;
-import org.example.entities.Client;
+import org.example.entity.Client;
 
 import java.util.List;
 

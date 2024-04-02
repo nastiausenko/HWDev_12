@@ -1,7 +1,7 @@
 package org.example.services;
 
 import org.example.crudService.PlanetCrudService;
-import org.example.entities.Planet;
+import org.example.entity.Planet;
 
 import java.util.List;
 
