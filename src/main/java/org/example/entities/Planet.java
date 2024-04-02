@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Planet {
     @Id
     @Column(name = "id")
-    private Long id;
+    private String id;
 
     @Column (name = "name")
     private String name;
