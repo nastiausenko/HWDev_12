@@ -38,10 +38,10 @@ public class PlanetCrudService {
     }
 
     // Delete
-    public void delete(Planet client) {
+    public void delete(Planet planet) {
         try (Session session = sessionFactory.openSession()) {
             Transaction transaction = session.beginTransaction();
-            session.delete(client);
+            session.delete(planet);
             transaction.commit();
         }
     }
