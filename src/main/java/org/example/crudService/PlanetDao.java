@@ -9,7 +9,7 @@ import org.hibernate.query.Query;
 
 import java.util.List;
 
-public class PlanetCrudService {
+public class PlanetDao {
     private final SessionFactory sessionFactory = HibernateUtil.getInstance().getSessionFactory();
 
     //create
